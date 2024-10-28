@@ -3,7 +3,7 @@ class DFS{
      public static class Edge{
         int scr;
         int dest;
-        // int wt;
+        int wt;
         
         public Edge(int s,int d){
             this.scr=s;
