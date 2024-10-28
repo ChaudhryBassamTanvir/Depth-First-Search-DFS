@@ -8,7 +8,7 @@ class DFS{
         public Edge(int s,int d){
             this.scr=s;
             this.dest=d;
-            this.wt=w;
+            // this.wt=w;
 
         }
      }
