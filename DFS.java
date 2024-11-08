@@ -14,7 +14,8 @@ class DFS{
      }
      public static void createGraph(ArrayList<Edge>graph[]){
         for (int i = 0; i < graph.length; i++) {
-            graph[i]= new ArrayList<Edge>();//har index pr ek new arraylist create ho jye ge or har index pr ek 
+            graph[i]= new ArrayList<Edge>();
+            //har index pr ek new arraylist create ho jye ge or har index pr ek 
             
         }
         graph[0].add(new Edge(0, 1));
