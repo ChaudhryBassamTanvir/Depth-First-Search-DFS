@@ -54,8 +54,8 @@ class DFS{
 
                 for (int i = 0; i < graph[curr].size(); i++) {
                     Edge e= graph[curr].get(i);
-                    q.add(e.dest);
                     //sare k sare neighbour queue me add ho jyn ge 
+                    q.add(e.dest);
                 }
             }
 
